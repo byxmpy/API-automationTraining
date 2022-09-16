@@ -25,7 +25,7 @@ class Test_inc:
     @pytest.mark.inc
     @pytest.mark.functiontest
     def test_business_bignumber(self):
-        assert inc(999999998) == 1000000000
+        assert inc(999999999) == 1000000000
 
     @pytest.mark.inc
     @pytest.mark.illegalinputtest
